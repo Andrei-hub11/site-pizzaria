@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  margin-top: 10rem;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.4rem;
+  padding: 30px 0;
+
+  &__social {
+    font-size: 1.3rem;
+  }
+
+  &__social a {
+    color: #d31027;
+  }
+
+  &__social .bx:hover {
+    transform: scale(1.5);
+    transition: 0.3s all linear;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  &__links a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #d31027;
+  }
+
+  &__links a:hover {
+    color: var(--white-color);
+    transition: 0.3s all linear;
+  }
+}

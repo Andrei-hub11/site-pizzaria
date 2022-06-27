@@ -1,0 +1,92 @@
+.delivery-section {
+  padding: 4rem;
+}
+
+.delivery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  margin-top: 6rem;
+
+  &__box {
+    background-color: #eee;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 1rem;
+  }
+
+  &__container-img img {
+    block-size: auto;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  &__box-texto {
+    font-size: 1rem;
+    font-family: var(--font-alternativa);
+    text-align: start;
+    text-transform: uppercase;
+    padding: 0 0.3rem;
+    color: red;
+    text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+  }
+
+  &__box-span {
+    padding: 0 0 0 6rem;
+  }
+
+  &__box-time {
+    font-family: var(--font-alternativa);
+    font-size: 1rem;
+    padding-left: 3px;
+    color: red;
+    text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+  }
+
+  &__box-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__box-select {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-image: linear-gradient(
+      to right,
+      #d31027 0%,
+      #ea384d 51%,
+      #d31027 100%
+    );
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.4rem 0.7rem;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+  }
+
+  &__box-select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 0.2rem;
+    background: #0e1026;
+    pointer-events: none;
+  }
+
+  &__box-select option {
+    background: #100f10;
+  }
+
+  .btn-delivery {
+    font-size: 1rem;
+    padding: 0.6rem 1.7rem;
+    margin-top: 1.5rem;
+    box-shadow: none;
+  }
+}

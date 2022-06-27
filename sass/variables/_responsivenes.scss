@@ -1,0 +1,467 @@
+@include for-size(phone-only) {
+  .home {
+    .home__texto-inicial {
+      position: absolute;
+      top: 3rem;
+      right: 1rem;
+      font-family: var(--font-alternativa);
+      font-size: 1rem;
+      color: red;
+      text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+    }
+
+    .home__button-pedido {
+      position: absolute;
+      top: 155px;
+      right: 80px;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+
+      border-radius: 5rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  .box {
+    width: 100%;
+  }
+  .about {
+    margin-top: 0;
+    &__section-title {
+      font-size: 2rem;
+    }
+    &__box-img img {
+      height: 14rem;
+    }
+    &__information {
+      padding: 0.4rem;
+      font-size: 0.9rem;
+      height: 14rem;
+      overflow: hidden;
+    }
+  }
+
+  .delivery-section {
+    padding: 2.5rem;
+  }
+
+  .delivery {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+    gap: 2rem;
+    row-gap: 5rem;
+
+    &__box {
+      background-color: #eee;
+      width: 15rem;
+      height: 22rem;
+      border-radius: 1rem;
+    }
+
+    &__box-texto {
+      font-size: 0.9rem;
+    }
+
+    &__box-select {
+      font-size: 0.7rem;
+      margin-top: 1.5rem;
+      border-radius: 1rem;
+      padding: 0.2rem 0.3rem;
+      cursor: pointer;
+      box-shadow: none;
+      outline: none;
+    }
+
+    .btn-delivery {
+      font-size: 0.7rem;
+      padding: 0.4rem 1.3rem;
+      margin-top: 1rem;
+      box-shadow: none;
+    }
+
+    .btn {
+      font-size: 0.7rem;
+    }
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 15px;
+    color: #d31027;
+    background: var(--white-color);
+    border-radius: 0.4rem;
+    resize: none;
+  }
+
+  .section-location__iframe {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@include for-size(tablet-portrait-up) {
+  .home {
+    .home__texto-inicial {
+      position: absolute;
+      top: 3rem;
+      right: 1rem;
+      font-family: var(--font-alternativa);
+      font-size: 1rem;
+      color: red;
+      text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+    }
+
+    .home__button-pedido {
+      position: absolute;
+      top: 155px;
+      right: 80px;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+
+      border-radius: 5rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  .box {
+    width: 100%;
+  }
+  .about {
+    margin-top: 0;
+    &__section-title {
+      font-size: 2rem;
+    }
+    &__box-img img {
+      height: 14rem;
+    }
+    &__information {
+      padding: 0.4rem;
+      font-size: 0.9rem;
+      height: 14rem;
+      overflow: hidden;
+    }
+  }
+
+  .delivery-section {
+    padding: 7.8rem;
+  }
+
+  .delivery {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+    gap: 2rem;
+    row-gap: 4rem;
+
+    &__box {
+      background-color: #eee;
+      width: 15rem;
+      height: 22rem;
+      border-radius: 1rem;
+    }
+
+    &__box-texto {
+      font-size: 0.9rem;
+    }
+
+    &__box-select {
+      font-size: 0.7rem;
+      margin-top: 1.5rem;
+      border-radius: 1rem;
+      padding: 0.2rem 0.3rem;
+    }
+
+    .btn-delivery {
+      font-size: 0.7rem;
+      padding: 0.4rem 1.3rem;
+      margin-top: 1rem;
+      box-shadow: none;
+    }
+
+    .btn {
+      font-size: 0.7rem;
+    }
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .section-location__iframe {
+    margin: auto;
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@include for-size(tablet-landscape-up) {
+  .home {
+    .home__texto-inicial {
+      position: absolute;
+      top: 5rem;
+      right: 1rem;
+      font-family: var(--font-alternativa);
+      font-size: 1.1rem;
+      color: red;
+      text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+    }
+
+    .home__button-pedido {
+      position: absolute;
+      top: 175px;
+      right: 80px;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+
+      border-radius: 5rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  .about {
+    &__section-title {
+      font-size: 2rem;
+    }
+    &__box-img img {
+      height: 16rem;
+    }
+    &__information {
+      padding: 0.4rem;
+      font-size: 1rem;
+      height: 10rem;
+    }
+  }
+
+  .delivery-section {
+    padding: 3.5rem;
+  }
+
+  .delivery {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+    gap: 1rem;
+    row-gap: 4rem;
+
+    &__box {
+      background-color: #eee;
+      width: 15rem;
+      height: 22rem;
+      border-radius: 1rem;
+    }
+
+    &__box-texto {
+      font-size: 0.9rem;
+    }
+
+    &__box-select {
+      font-size: 0.7rem;
+      margin-top: 1.5rem;
+      border-radius: 1rem;
+      padding: 0.2rem 0.3rem;
+    }
+
+    .btn-delivery {
+      font-size: 0.7rem;
+      padding: 0.4rem 1.3rem;
+      margin-top: 1rem;
+      box-shadow: none;
+    }
+
+    .btn {
+      font-size: 0.7rem;
+    }
+  }
+
+  .section-location__iframe {
+    margin: auto;
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@include for-size(desktop-up) {
+  .home {
+    .home__texto-inicial {
+      position: absolute;
+      top: 5rem;
+      right: 1rem;
+      font-family: var(--font-alternativa);
+      font-size: 1.3rem;
+      color: red;
+      text-shadow: #ff8c00 1px 2px, 0 3px #ffff00;
+    }
+
+    .home__button-pedido {
+      position: absolute;
+      top: 195px;
+      right: 80px;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+
+      border-radius: 5rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  .about {
+    &__section-title {
+      font-size: 2.5rem;
+    }
+    &__box-img img {
+      height: 22rem;
+    }
+    &__information {
+      padding: 0.4rem;
+      font-size: 1.1rem;
+      height: 10rem;
+    }
+  }
+
+  .delivery-section {
+    padding: 10rem;
+  }
+  .delivery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    row-gap: 4rem;
+
+    &__box {
+      background-color: #eee;
+      width: 17rem;
+      height: 23rem;
+    }
+
+    &__box-texto {
+      font-size: 1rem;
+    }
+
+    &__box-select {
+      font-size: 0.8rem;
+    }
+
+    .btn-delivery {
+      font-size: 0.8rem;
+    }
+
+    .btn {
+      font-size: 0.7rem;
+    }
+  }
+
+  .section-location__iframe {
+    width: 550px;
+    height: 300px;
+  }
+}
+
+@include for-size(big-desktop-up) {
+  .nav__img img {
+    width: 80px;
+  }
+  .nav__name {
+    font-size: 1.4rem;
+  }
+
+  .nav__link {
+    font-size: 1.4rem;
+  }
+  .home {
+    .home__texto-inicial {
+      position: absolute;
+      top: 5rem;
+      right: 4rem;
+      font-family: var(--font-alternativa);
+      font-size: 1.5rem;
+    }
+
+    .home__button-pedido {
+      position: absolute;
+      top: 220px;
+      right: 100px;
+    }
+
+    .btn {
+      font-size: 1.2rem;
+
+      border-radius: 5rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  .about {
+    padding: 1rem;
+
+    &__section-title {
+      font-size: 3rem;
+    }
+    &__box-img img {
+      height: 25rem;
+    }
+    &__information {
+      font-size: 1.4rem;
+      height: 12rem;
+    }
+  }
+
+  .delivery-section {
+    padding: 20rem;
+  }
+  .delivery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    row-gap: 4rem;
+
+    &__box {
+      background-color: #eee;
+      width: 20rem;
+      height: 27rem;
+    }
+
+    &__box-texto {
+      font-size: 1.2rem;
+    }
+
+    &__box-time {
+      font-size: 1.2rem;
+    }
+
+    &__box-select {
+      font-size: 1rem;
+    }
+
+    .btn-delivery {
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      font-size: 1.1rem;
+    }
+  }
+
+  .footer {
+    &__social {
+      font-size: 1.5rem;
+    }
+
+    &__links a {
+      font-size: 1.3rem;
+    }
+  }
+  .section-location__iframe {
+    margin: auto;
+    width: 550px;
+    height: 300px;
+  }
+}

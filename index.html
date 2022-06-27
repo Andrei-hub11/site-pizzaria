@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">Clay</a>
+
+      <i class="bx bx-menu header__toggle" id="header-toggle"></i>
+
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+          <a href="" class="nav__perfil">
+            <div class="nav__img">
+              <img src="/imagens/imageNavbar.webp" alt="" />
+            </div>
+
+            <div>
+              <span class="nav__name">Pizaria Forno à Lenha</span>
+              <span class="nav__name"></span>
+            </div>
+          </a>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link active">Início</a>
+              </li>
+
+              <li class="nav__item dropdown">
+                <a href="#" class="nav__link dropdown__link">Sobre</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">Delivery</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home__box">
+        <img
+          class="home__box-img"
+          alt=""
+          srcset="
+            /imagens/imageInicial-pequena.jpg  600w,
+            /imagens/imageInicial-media.jpg   1280w,
+            /imagens/imageInicial-larga.jpg   1800w
+          "
+        />
+      </div>
+      <p class="home__texto-inicial">
+        Realize seu pedido agora mesmo <br />
+        e receba diretamente em sua casa, <br />
+        com nosso serviço de delivery!
+      </p>
+      <button class="home__button-pedido btn">
+        Fazer pedido
+        <a class="home__button-span"></a>
+      </button>
+    </section>
+    <section class="about box">
+      <h2 class="about__section-title">Sobre nós</h2>
+      <div class="about__mainBox">
+        <div class="about__box-img">
+          <img
+            alt=""
+            srcset="
+              /imagens/imagedoSobre-pequena.png  600w,
+              /imagens/imagedoSobre-media.png   1200w
+            "
+          />
+        </div>
+        <div class="about__information">
+          Somos uma pizzaria fundada em 2017, que desde então fornece esse
+          saboroso alimento para as pessoas da região do Projeto Mandacaru.
+          Entregar uma pizza de valor e quentinha, é a nossa missão. E
+          certamente não estaríamos aqui, se não estivéssemos comprometidos com
+          esse propósito. Então, venha e peça uma pizza! <br />
+          <br />
+          "O negócio aqui é de qualidade." — Diz o Chefe.
+        </div>
+      </div>
+    </section>
+    <section class="delivery-section box">
+      <h2 class="delivery-title about__section-title">Delivery</h2>
+      <div class="delivery">
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img class="" src="/imagens/imagepizzadeFrango-media.jpg" alt="" />
+          </div>
+          <p class="delivery__box-texto">Pizza de Frango</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img class="" src="/imagens/imagepizzadeMilho-media.jpg" alt="" />
+          </div>
+          <p class="delivery__box-texto">Pizza de Milho</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img class="" src="/imagens/imagepizzadeQueijo-media.jpg" alt="" />
+          </div>
+          <p class="delivery__box-texto">Pizza de Queijo</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img
+              class=""
+              src="/imagens/imagepizzadeCalabresa-media.jpg"
+              alt=""
+            />
+          </div>
+          <p class="delivery__box-texto">Pizza de Calabresa</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img class="" src="/imagens/imagepizzaHavaiana-media.jpg" alt="" />
+          </div>
+          <p class="delivery__box-texto">Pizza Havaiana</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+        <div class="delivery__box">
+          <div class="delivery__container-img">
+            <img
+              class=""
+              src="/imagens/piazzadeFrangoccatupiry-media.jpeg"
+              alt=""
+            />
+          </div>
+          <p class="delivery__box-texto">Pizza de Frango C/ Catupiry</p>
+          <span class="delivery__box-time"
+            ><li class="bx bxs-time"></li>
+            25 minutos</span
+          >
+          <div class="delivery__box-btns">
+            <select name="format" id="format" class="delivery__box-select">
+              <option selected disabled>escolha o tamanho da pizza</option>
+              <option value="25">Tamanho M</option>
+              <option value="30">Tamanho G</option>
+              <option value="38">Tamanho Família</option>
+            </select>
+            <button class="btn btn-delivery">Comprar pizza</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section box">
+      <h2 class="about__section-title">Contato</h2>
+      <form action="" class="contact-form" id="contact-form">
+        <input
+          type="text"
+          placeholder="Informe seu nome"
+          class="name"
+          required
+        />
+        <input
+          type="number"
+          name=""
+          id=""
+          placeholder="Informe o número de seu Whatsapp"
+          class="email"
+          required
+        />
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Escreva-nos uma mensagem"
+          class="message"
+          required
+        ></textarea>
+        <input type="submit" value="Enviar" class="send-btn" />
+      </form>
+    </section>
+
+    <section class="section-location box">
+      <iframe
+        class="section-location__iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.3242774970195!2d-40.433831!3d-9.392911200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7736f83ccd63d07%3A0x6008b26edcf46431!2spizzaria%20f.lenha!5e0!3m2!1spt-BR!2sbr!4v1655604600254!5m2!1spt-BR!2sbr"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="footer box" id="footer">
+      <div class="footer__social">
+        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+      </div>
+
+      <div class="footer__links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Isenção de Responsabilidade</a>
+      </div>
+    </section>
+    <script src="/index.js"></script>
+  </body>
+</html>
